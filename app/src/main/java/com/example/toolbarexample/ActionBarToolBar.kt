@@ -19,6 +19,7 @@ class ActionBarToolBar: AppCompatActivity() {
 //        setSupportActionBar(mytoolBar)
         mytoolBar!!.title = "ActionBar ToolBar"
         mytoolBar!!.subtitle = "by Khoanh97"
+        Log.d("Khoanh","Hello Khoanh")
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
